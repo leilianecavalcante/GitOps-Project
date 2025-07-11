@@ -146,17 +146,17 @@ Com o ArgoCD acessível, vamos configurar a aplicação.
     - **Namespace:** `default`
 3.  Clique em **`CREATE`**.
 
-![](/Assets/argo%203.png)
+![](/assets/argo%203.png)
 
 4.  O ArgoCD começará a sincronizar os recursos. Se você não marcou a política como automática, clique no botão **`SYNC`** no painel da aplicação.
 
-![](/Assets/argo%204.png)
+![](/assets/argo%204.png)
 
 Verifique se os pods da aplicação estão sendo criados no namespace `default`:
 ```bash
 kubectl get pods --watch
 ```
-![](/Assets/comandos%201.png)
+![](/assets/comandos%201.png)
 
 ### 5. Acessar o Frontend da Loja
 
@@ -168,7 +168,7 @@ kubectl port-forward svc/frontend-external 8081:80
 
 🎉 **Pronto!** Agora você pode acessar a loja no seu navegador em http://localhost:8081.
 
-![](/Assets/onlineb.png)
+![](/assets/onlineb.png)
 
 ---
 
