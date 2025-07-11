@@ -120,7 +120,7 @@ Agora, vamos instalar o ArgoCD no cluster e acessar seu painel.
     ```
     - Abra no seu navegador: https://localhost:8080
 
-![](/Assets/argo%201.png)
+![](/assets/argo%201.png)
 
 3.  **Faça o login:**
     - **Usuário:** `admin`
